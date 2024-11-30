@@ -232,6 +232,11 @@ model_configurations = {
         'model_name': 'llama3.1:8b-instruct-fp16',
         'num_predict': 4096
     },
+    'llama3.1-70b-4bit-ollama': { # LLaMa3.1-70b-Q4_0
+        'type': 'Ollama',
+        'model_name': 'llama3.1:70b',
+        'num_predict': 4096
+    },
     'llama3.1-4bit-ollama': {
         'type': 'Ollama',
         'model_name': 'llama3.1:latest',
@@ -255,6 +260,11 @@ model_configurations = {
     'neural-chat-4bit-ollama': {
         'type': 'Ollama',
         'model_name': 'neural-chat:latest',
+        'num_predict': 4096
+    },
+    'qwen2.5-72b-4bit-ollama': { # QWen2.5-72b-Q4_K_M
+        'type': 'Ollama',
+        'model_name': 'qwen2.5:72b',
         'num_predict': 4096
     },
     # HuggingFace Models
