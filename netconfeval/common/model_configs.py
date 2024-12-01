@@ -262,6 +262,11 @@ model_configurations = {
         'model_name': 'neural-chat:latest',
         'num_predict': 4096
     },
+    'qwen2.5-14b-4bit-ollama': { # QWen2.5-14b-Q4_K_M
+        'type': 'Ollama',
+        'model_name': 'qwen2.5:14b',
+        'num_predict': 4096
+    },
     'qwen2.5-72b-4bit-ollama': { # QWen2.5-72b-Q4_K_M
         'type': 'Ollama',
         'model_name': 'qwen2.5:72b',
